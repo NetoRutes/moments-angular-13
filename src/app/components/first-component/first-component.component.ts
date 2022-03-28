@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstComponentComponent implements OnInit {
 
+  nome: string  = 'asd';
+
   constructor() { }
 
   ngOnInit(): void {
